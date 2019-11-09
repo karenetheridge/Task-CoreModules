@@ -5,7 +5,7 @@ package Task::CoreModules;
 # ABSTRACT: All the modules that should have been installed for your perl
 # KEYWORDS: core corelist modules missing
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 
 1;
