@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/Task-CoreModules-*/
+/Task-CoreModules-*.tar.gz
