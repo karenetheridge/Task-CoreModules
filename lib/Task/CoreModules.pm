@@ -24,7 +24,7 @@ modules: all the modules that should have been bundled with your version of Perl
 overly-zealous distribution package managers who decided to omit some modules to "save space".
 
 Simply declare a dependency on C<Task::CoreModules> in your project, and when installed, all core modules are
-installed. If you already have them, then no action is taken.
+installed for your version of Perl. If you already have them, then no action is taken.
 
 =head1 FUNCTIONS/METHODS
 
