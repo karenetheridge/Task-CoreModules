@@ -35,6 +35,6 @@ before_install:
 install:
   - cpan-install --deps
 script:
-  - perl Build.PL
-  - ./Build
+  - perl Makefile.PL
+  - make
   - prove -b -r -s -j$(test-jobs) $(test-files)
